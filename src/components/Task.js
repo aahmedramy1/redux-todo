@@ -1,6 +1,6 @@
 import React from "react";
 import Checkbox from "@material-ui/core/Checkbox";
-import "./TodoItem.css";
+import "./Task.css";
 import { useDispatch } from "react-redux";
 import { setCheck } from "../features/todoSlice";
 
