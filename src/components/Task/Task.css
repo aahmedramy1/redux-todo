@@ -19,3 +19,6 @@
 .todoItem--done {
   text-decoration: line-through;
 }
+.btn-link {
+  padding: 0;
+}

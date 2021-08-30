@@ -13,6 +13,7 @@ const Input = () => {
         description: input,
         isDone: false,
         id: Date.now(),
+        enableEdit: false,
       })
     );
     setInput("");
