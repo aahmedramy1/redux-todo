@@ -14,10 +14,10 @@ const todoSlice = createSlice({
     setCheck: (state, action) => {
       state.todoList.forEach((item) => {
         if (action.payload === item.id) {
-          if (item.done === true) {
-            item.done = false;
+          if (item.isDone === true) {
+            item.isDone = false;
           } else {
-            item.done = true;
+            item.isDone = true;
           }
         }
       });

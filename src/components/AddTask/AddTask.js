@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
-import { saveTodo } from "../features/todoSlice";
+import { saveTodo } from "../../features/todoSlice";
 import "./AddTask.css";
 
 const Input = () => {
@@ -10,8 +10,8 @@ const Input = () => {
     console.log(`Adding ${input}`);
     dispatch(
       saveTodo({
-        item: input,
-        done: false,
+        description: input,
+        isDone: false,
         id: Date.now(),
       })
     );

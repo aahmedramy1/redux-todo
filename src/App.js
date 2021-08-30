@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
-import Input from "./components/AddTask";
-import ListTask from "./components/ListTask";
+import Input from "./components/AddTask/AddTask";
+import ListTask from "./components/ListTask/ListTask";
 
 function App() {
   return (
