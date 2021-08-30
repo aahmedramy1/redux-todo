@@ -8,6 +8,10 @@
   border-radius: 12px;
 }
 
+.todoItem p {
+  margin-bottom: 0;
+}
+
 .todoItem > p {
   flex: 1;
 }

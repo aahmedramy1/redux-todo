@@ -4,13 +4,13 @@ import "./FilterButtons.css";
 const FilterButtons = () => {
   return (
     <div>
-      <button type="button" class="btn btn-warning">
+      <button type="button" className="btn btn-warning">
         Done
       </button>
-      <button type="button" class="btn btn-primary">
+      <button type="button" className="btn btn-primary">
         Show All
       </button>
-      <button type="button" class="btn btn-warning">
+      <button type="button" className="btn btn-warning">
         Not Done
       </button>
     </div>
