@@ -25,7 +25,9 @@ const Input = () => {
         value={input}
         onChange={(e) => setInput(e.target.value)}
       />
-      <button onClick={addTodo}>Add!</button>
+      <button className="donebtn" onClick={addTodo}>
+        Add!
+      </button>
     </div>
   );
 };
